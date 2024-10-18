@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Roboto;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  /* width: 90%;
+  height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 100vh;
+  /* max-height: max-content; */
+  max-width: 1250px;
+  margin: auto;
+  border: 2px solid yellow;
+}
+
+span {
+  color: rgb(194, 191, 191);
+}
+
+h2 {
+  font-size: 28px;
+}
+
+/* Nav */
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  padding: 20px 0;
+  font-size: 14px;
+  border: 2px solid olive;
+}
+
+.main-nav h1 {
+  font-size: 18px;
+}
+
+.main-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-nav ul li {
+  padding: 0 10px;
+}
+
+.main-nav ul li a:hover {
+  color: #ffbb9e;
+}
+
+.main-menu #about-us a {
+  color: #ffbb9e;
+  border-bottom: 2px solid #ffbb9e;
+  padding-bottom: 2px;
+}
+
+.right-menu {
+  display: flex;
+  align-items: center;
+}
+
+.right-menu .contact-us {
+  padding: 8px 15px;
+  border: 2px solid rgb(167, 163, 163);
+  border-radius: 20px;
+  background-color: whitesmoke;
+  transition: 0.15s transform ease;
+}
+
+.right-menu .contact-us:hover {
+  transform: translateY(-8px);
+  opacity: 0.9;
+}
+
+/* Hero*/
+.hero {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* margin-bottom: 20px; */
+  border: 2px solid rgb(219, 13, 168);
+}
+
+.hero-content {
+  margin: 40px 0 20px 0;
+  width: 50%;
+  height: 22%;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  letter-spacing: 2px;
+  border: 2px solid blue;
+}
+
+.hero-img {
+  width: 100%;
+  height: 80%;
+  border: 2px solid rgb(12, 224, 125);
+}
+
+.hero-img img {
+  width: 100%;
+  height: 100%;
+  border: 2px solid red;
+  /* background: url("Images/estate2.jpg") no-repeat center/contain; */
+}
